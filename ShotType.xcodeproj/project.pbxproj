@@ -14,7 +14,7 @@
 		55471176164E351500A162C9 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 55471174164E351500A162C9 /* Credits.rtf */; };
 		55471178164E351500A162C9 /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 55471177164E351500A162C9 /* AppDelegate.applescript */; };
 		5547117B164E351500A162C9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55471179164E351500A162C9 /* MainMenu.xib */; };
-		55CC3DFD164E6F9D008567A8 /* draganicon-1.icns in Resources */ = {isa = PBXBuildFile; fileRef = 55CC3DFC164E6F9D008567A8 /* draganicon-1.icns */; };
+		55CC3DFD164E6F9D008567A8 /* shottype.icns in Resources */ = {isa = PBXBuildFile; fileRef = 55CC3DFC164E6F9D008567A8 /* shottype.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +31,7 @@
 		55471175164E351500A162C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		55471177164E351500A162C9 /* AppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; };
 		5547117A164E351500A162C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		55CC3DFC164E6F9D008567A8 /* draganicon-1.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "draganicon-1.icns"; sourceTree = "<group>"; };
+		55CC3DFC164E6F9D008567A8 /* shottype.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = shottype.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +50,7 @@
 		55471154164E351500A162C9 = {
 			isa = PBXGroup;
 			children = (
-				55CC3DFC164E6F9D008567A8 /* draganicon-1.icns */,
+				55CC3DFC164E6F9D008567A8 /* shottype.icns */,
 				5547116B164E351500A162C9 /* ShotType */,
 				55471162164E351500A162C9 /* Frameworks */,
 				55471160164E351500A162C9 /* Products */,
@@ -133,7 +133,7 @@
 		55471156164E351500A162C9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0450;
+				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Dragan Marjanovic";
 			};
 			buildConfigurationList = 55471159164E351500A162C9 /* Build configuration list for PBXProject "ShotType" */;
@@ -161,7 +161,7 @@
 				55471170164E351500A162C9 /* InfoPlist.strings in Resources */,
 				55471176164E351500A162C9 /* Credits.rtf in Resources */,
 				5547117B164E351500A162C9 /* MainMenu.xib in Resources */,
-				55CC3DFD164E6F9D008567A8 /* draganicon-1.icns in Resources */,
+				55CC3DFD164E6F9D008567A8 /* shottype.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,7 +211,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -240,7 +239,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_EMPTY_BODY = YES;
